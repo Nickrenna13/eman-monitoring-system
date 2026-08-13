@@ -1,3 +1,8 @@
+# EMAN Environmental Monitoring System
+# Module: BME280 - Temperture, humidity, pressure driver 
+# Author: Nick
+# Raspberry Pi Embedded Project
+
 import time
 import board
 import busio
