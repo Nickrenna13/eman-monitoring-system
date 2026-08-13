@@ -1,4 +1,3 @@
-# eman-monitoring-system
 Environmental Monitoring System (EMAN)
 A Raspberry Pi–based environmental monitoring and sensor integration project.
 
@@ -23,7 +22,7 @@ Documentation of design decisions, wiring, and testing
 Hardware
 Raspberry Pi (model used)
 
-Sensors (list each one: DHT22, DS18B20, etc.)
+Sensors (DHT22, DS18B20, etc.)
 
 Custom PCB (KiCad)
 
@@ -68,9 +67,7 @@ Screenshots and files are available in /pcb.
 Photos
 Images of the hardware, wiring, PCB, and assembly process are located in /photos.
 
-Status
-In Progress
-
+Status: In Progress
 Current work:
 
 Finalizing PCB assembly (components arriving soon)
