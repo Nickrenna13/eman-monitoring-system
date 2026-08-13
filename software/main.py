@@ -1,3 +1,8 @@
+# EMAN Environmental Monitoring System
+# Module: Main program loop 
+# Author: Nick
+# Raspberry Pi Embedded Project
+
 import time
 from sensors.bh1750 import BH1750
 from sensors.bme280 import BME280Sensor
