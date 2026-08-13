@@ -35,8 +35,8 @@ This PCB was designed in KiCad as part of the EMAN environmental monitoring syst
 - All DRC errors resolved
 ## Gerbers
 Gerber files will be uploaded once fabrication is complete.
+( Gerber files are uploaded as EMAN_gerbers.zip)
 ## Future Improvements
-- Add mounting holes
 - Add fuse or transient protection
 - Add relay outputs
 - Add external 5V regulator
