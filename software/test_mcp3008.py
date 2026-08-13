@@ -1,3 +1,8 @@
+# EMAN Environmental Monitoring System
+# Module: MCP3008 ADC test script 
+# Author: Nick
+# Raspberry Pi Embedded Project
+
 from gpiozero import MCP3008
 
 import time
