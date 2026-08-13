@@ -1,3 +1,8 @@
+# EMAN Environmental Monitoring System
+# Module: BH1750 Light Sensor
+# Author: Nick
+# Raspberry Pi Embedded Project
+
 import smbus2
 import time
 
