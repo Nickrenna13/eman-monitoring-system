@@ -1,3 +1,8 @@
+# EMAN Environmental Monitoring System
+# Module: Soil probe reading via MCP3008
+# Author: Nick
+# Raspberry Pi Embedded Project
+
 # 0 = went
 # 1 = dry
 import RPi.GPIO as GPIO
