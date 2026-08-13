@@ -1,3 +1,8 @@
+# EMAN Environmental Monitoring System
+# Module: Relay testing script 
+# Author: Nick
+# Raspberry Pi Embedded Project
+
 import RPi.GPIO as GPIO
 
 class Relay:
