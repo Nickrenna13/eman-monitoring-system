@@ -22,6 +22,8 @@ This PCB was designed in KiCad as part of the EMAN environmental monitoring syst
 - MCP3008 uses SPI (CE0, MISO, MOSI, SCLK)
 - All sensors use 3.3V logic
 - Ground plane used for stability
+- Photo: <img width="1037" height="722" alt="Screenshot 2026-08-03 120422" src="https://github.com/user-attachments/assets/0b3914da-0ab8-4387-9a95-720cdd5688bd" />
+
 ## Layout Notes
 - Clean routing for I²C and SPI
 - Probe connectors placed on board edge
