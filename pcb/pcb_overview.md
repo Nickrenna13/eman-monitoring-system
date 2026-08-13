@@ -1,6 +1,6 @@
 # PCB Overview
 This PCB was designed in KiCad as part of the EMAN environmental monitoring system. Its purpose is to provide clean routing, stable power, and organized connectors for the Raspberry Pi and all sensors used in the project.
-<img width="800" height="400" alt="Screenshot 2026-08-06 092831" src="https://github.com/user-attachments/assets/c9b76055-1ba3-4c9f-8de7-9863c2c1cb7d" />
+<img width="850" height="550" alt="Screenshot 2026-08-06 092831" src="https://github.com/user-attachments/assets/c9b76055-1ba3-4c9f-8de7-9863c2c1cb7d" />
 
 
 # Key Features
