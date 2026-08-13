@@ -1,3 +1,8 @@
+# EMAN Environmental Monitoring System
+# Module: logger utility off a JSON
+# Author: Nick
+# Raspberry Pi Embedded Project
+
 import json
 import os
 
