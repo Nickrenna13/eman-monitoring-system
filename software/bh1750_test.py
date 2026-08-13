@@ -1,6 +1,13 @@
+########################################################################
+# EMAN Environmental Monitoring System
+# Module: Full Demo test with sensor BH1750 (light, I^2C) and a logging to csv file
+# Author: Nick R
+# Raspberry Pi Embedded Project
+#########################################################################
 # Notes: Reads lux then prints it. Saves it to light_log.csv, waits for
 # 60 seconds but repeats forever or until program gracefully shuts down.
 # This BH1750 is a test to show know-how and supports a real data logger
+
 import RPi. GPIO as GPIO
 import smbus2
 import time
