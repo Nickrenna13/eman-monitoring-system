@@ -34,5 +34,8 @@ Handles:
 - logger.py — Logging utility  
 - main.py — Main program loop  
 - test_mcp3008.py — ADC test script  
-- config.py — Global configuration values  
+- config.py — Global configuration values
+- bh1750_test.py — standalone test script for BH1750 light sensor
+- light_log.csv — real logged data from the test run
+
 
