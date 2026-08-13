@@ -1,6 +1,6 @@
 # EMAN Environmental Monitoring System
 # Module: Soil probe reading via MCP3008
-# Author: Nick
+# Author: Nick R
 # Raspberry Pi Embedded Project
 
 # 0 = went
