@@ -19,7 +19,7 @@ This project is part of my transition into embedded systems, SBC-based control w
 
 - Documentation of design decisions, wiring, and testing
 
-#Hardware
+# Hardware
 - Raspberry Pi (model used)
 
 - Sensors (DHT22, DS18B20, etc.)
