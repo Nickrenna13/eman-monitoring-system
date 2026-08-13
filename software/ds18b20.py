@@ -1,3 +1,8 @@
+# EMAN Environmental Monitoring System
+# Module: DS18B20 1-Wire temperature probe driver 
+# Author: Nick
+# Raspberry Pi Embedded Project
+
 import glob
 
 class DS18B20:
