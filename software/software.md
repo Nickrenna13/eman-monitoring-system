@@ -23,7 +23,16 @@ Handles:
 - Error handling
 - Future database integration
 
-## Python Requirements
+## Python Requirement
 
-Install using:
+# Index
+- bh1750.py — I²C light sensor driver  
+- eman_bme280.py — BME280 temperature/humidity/pressure driver  
+- ds187b20.py — DS18B20 1‑Wire temperature probe driver  
+- soil.py — Soil probe reading via MCP3008  
+- relay.py — Relay control module  
+- logger.py — Logging utility  
+- main.py — Main program loop  
+- test_mcp3008.py — ADC test script  
+- config.py — Global configuration values  
 
