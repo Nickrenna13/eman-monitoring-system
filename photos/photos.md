@@ -8,7 +8,7 @@
 <img width="500" height="500" alt="20261001_101433" src="https://github.com/user-attachments/assets/d381ec3f-b4e0-449d-8cbc-70ad32dc6b62" />
 
 4. Mounted LCD screen with standoffs and system running. Button is inside case for now.
-<img width="3000" height="4000" alt="20261002_142555" src="https://github.com/user-attachments/assets/81cb9d7e-4a9b-4365-be2b-50ac0a8a0ea7" />
+<img width="500" height="500" alt="20261002_142555" src="https://github.com/user-attachments/assets/81cb9d7e-4a9b-4365-be2b-50ac0a8a0ea7" />
 
 
 
