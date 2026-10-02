@@ -1,84 +1,109 @@
-# Environmental Monitoring System (EMAN)
-A Raspberry Pi–based environmental monitoring and sensor integration project.
+Environmental Monitoring System (EMAN)
+A microcontroller-based environmental monitoring and sensor integration project.
 
-# Overview
-EMAN is an embedded environmental monitoring system built around a Raspberry Pi and a custom PCB designed in KiCad. The goal is to collect environmental data from multiple sensors, process it using Python, and prepare the system for future expansion into control applications.
+Overview
+EMAN is an embedded environmental monitoring system built around the ESP32 platform with optional touchscreen interfaces. The goal is to collect environmental data from multiple sensors, process it using Embedded C, and prepare the system for future expansion into control and automation applications.
 
 This project is part of my transition into embedded systems, SBC-based control work, and prototype electronics.
 
-# Features
-- Raspberry Pi running embedded Linux
+Features
+ESP32 (V1 + touchscreen, ESP32 V2)
 
-- Multiple environmental sensors (temperature, humidity, light, etc.)
+2.8" LCD touchscreen interface (V1)
 
-- Custom PCB designed in KiCad
+Multiple environmental sensors:
 
-- Python scripts for sensor reading and data handling
+PMS5003 (UART)
 
-- Modular hardware layout for future expansion
+BME280 (I²C)
 
-- Documentation of design decisions, wiring, and testing
+SCD41 (I²C)
 
-# Hardware
-- ESP32 V1, TouchScreen (2.8in) ESP32 V2.
+ENS160+ (I²C)
 
-- LCD screen V1
+Custom PCB designed in KiCad (in progress)
 
-- Sensors (PMS5003 UART, BMH280 I2C, SCD41 I2C, ENS160+ I2C)
+Modular hardware layout for expansion
 
-- Custom PCB (KiCad) -in progress
+Documentation of wiring, design decisions, and testing
 
-- Connectors, wiring, breadboard prototyping, standoffs, resistors, barrel jacks 
+Hardware
+ESP32 development boards (V1 + touchscreen, V2)
 
-- Power supply considerations: 12V Wall
+2.8" LCD screen (SPI)
 
+Sensors:
 
+PMS5003 (air particulate sensor)
 
-# Software
-- Embedded C
-- Platformio 
-- VScode 
+BME280 (temperature, humidity, pressure)
 
+SCD41 (CO₂)
 
-# PCB Design
-The PCB was created in KiCad and includes:
+ENS160+ (air quality VOC/NOx)
 
-- Sensor connectors
+Custom PCB (KiCad) — routing in progress
 
-- Power routing
+Connectors, wiring, standoffs, resistors, barrel jacks
 
-- Raspberry Pi header alignment
+12V wall power supply with onboard regulation
 
-- Silkscreen labeling
+Software
+Embedded C
 
-- DRC cleanup
+PlatformIO
 
-- Gerber generation
+Visual Studio Code
 
-Screenshots and files are available in /pcb.
+Sensor drivers (UART + I²C)
 
-# Photos
+LCD display UI rendering
+
+Planned data logging + modular firmware structure
+
+PCB Design
+The PCB is being created in KiCad and includes:
+
+Sensor connectors (UART + I²C)
+
+Power routing and regulation
+
+ESP32 header alignment
+
+Silkscreen labeling
+
+DRC cleanup
+
+Gerber generation
+
+Screenshots and files will be available in /pcb.
+
+Photos
 Images of the hardware, wiring, PCB, and assembly process are located in /photos.
 
-# Status: In Progress
+Status: In Progress
 Current work:
 
-- Finalizing PCB assembly (components arriving soon)
+Finalizing PCB routing and component placement
 
-- Expanding Python scripts
+Integrating sensor drivers in PlatformIO
 
-- Adding more sensors
+Building touchscreen UI elements
 
-- Improving documentation
+Improving documentation
 
-# Future Plans
-- Add database storage (SQLite or MongoDB)
+Future Plans
+Add database storage (SQLite or MongoDB) via external SBC or cloud endpoint
 
-- Build a small UI for data visualization
+Build a small UI for data visualization
 
-- Add outdoor sensor enclosure
+Add outdoor sensor enclosure
 
-- Integrate control outputs (relays, fans, pumps)
+Integrate control outputs (relays, fans, pumps)
+
+Expand to multi-node sensor network
+
+This version fixes:
 
 - V2 TouchScreen 
 
