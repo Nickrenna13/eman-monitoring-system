@@ -20,32 +20,25 @@ This project is part of my transition into embedded systems, SBC-based control w
 - Documentation of design decisions, wiring, and testing
 
 # Hardware
-- Raspberry Pi (model used)
+- ESP32 V1, TouchScreen (2.8in) ESP32 V2.
 
-- Sensors (DHT22, DS18B20, etc.)
+- LCD screen V1
 
-- Custom PCB (KiCad)
+- Sensors (PMS5003 UART, BMH280 I2C, SCD41 I2C, ENS160+ I2C)
 
-- Connectors, wiring, and breadboard prototyping
+- Custom PCB (KiCad) -in progress
 
-- Power supply considerations
+- Connectors, wiring, breadboard prototyping, standoffs, resistors, barrel jacks 
 
-See the /hardware and /pcb folders for schematics, layout files, and design notes.
+- Power supply considerations: 12V Wall
+
+
 
 # Software
-Python scripts handle:
+- Embedded C
+- Platformio 
+- VScode 
 
-- Sensor initialization
-
-- Data reading
-
-- Logging
-
-- Basic error handling
-
-- Future expansion for database storage
-
-See the /software folder for code.
 
 # PCB Design
 The PCB was created in KiCad and includes:
@@ -87,7 +80,7 @@ Current work:
 
 - Integrate control outputs (relays, fans, pumps)
 
-- Migrate to industrial SBC for long-term deployment
+- V2 TouchScreen 
 
 # About Me
-I’m a hands-on technician transitioning into embedded systems, SBC-based control work, and prototype electronics. EMAN is part of my portfolio demonstrating real-world embedded development.
+I’m a hands-on worker/builder transitioning into embedded systems, SBC-based control work, and prototype electronics. EMAN is part of my portfolio demonstrating real-world embedded development.
