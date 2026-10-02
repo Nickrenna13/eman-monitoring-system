@@ -6,14 +6,11 @@ The EMAN software is written in Python and runs on a Raspberry Pi. It handles se
 
 ### sensors.py
 Handles:
-- BME280 (I²C)
-- BH1750 (I²C)
-- DS18B20 (1‑Wire)
+- BMH280 (I2C)
+- ENS160 (I2C)
+- SCD41 (I2C)
+- PMS5003 (UART)
 
-### adc.py
-Handles:
-- MCP3008 SPI ADC
-- Reads 4 analog probe channels
 
 ### main.py
 Handles:
